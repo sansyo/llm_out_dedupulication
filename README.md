@@ -27,5 +27,5 @@ text = "圧縮データを短いテキストに変換する圧縮データを短
 
 print(remove_longest_repeating_substring(text))
 
-'''
-output: 圧縮データを短いテキストに変換する
+#output: 圧縮データを短いテキストに変換する
+
