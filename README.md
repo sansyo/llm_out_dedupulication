@@ -20,3 +20,11 @@ import deduplication
 text = "Your sample text here..."
 dedup_text = deduplication.remove_with_suffix_array(text)
 print(dedup_text)
+
+## Example:
+
+text = "圧縮データを短いテキストに変換する圧縮データを短いテキストに変換する圧縮データを短いテキストに変換する"
+
+print(remove_longest_repeating_substring(text))
+
+output: 圧縮データを短いテキストに変換する
